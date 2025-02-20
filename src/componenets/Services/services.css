@@ -10,36 +10,35 @@
 .service-text{
     margin: 20px;
     padding: 20px;
-
 }
 .service-text p{
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
-    font-family: cursive;
-    font-weight: 800;
+    font-weight: 600;
+    font-family: 'manrope',sans-serif;
     text-align: center;
     text-transform: capitalize;
 }
 .service-lists{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
+    margin: 0px 100px 0px 100px;
+    padding: 10px;
    }
 .services-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top: 10px;
     padding: 10px;
     flex-direction: column;
 }
 .image-container{
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 1.325rem;
     overflow: hidden;
     background-color: #5a107cee;
@@ -49,32 +48,54 @@
 .image-container img{
     width: 50%;
     margin: 30px;
-   
 }
-.list-title p{
-    margin-top: 0.625rem; 
-     padding: 10px;
+.list-title{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
 }
    .list-title p{
     font-size: 1.5rem;
     color: white;
-    font-family: cursive;
+    font-family: 'manrope',sans-serif;
     font-size: 600;
     text-align: center;
     text-transform: capitalize;
- 
    }
-   .list-description p{
-     padding: 10px;
-     width: 80%;
-     margin-left: 20px;
+   .list-description{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    
    }
+  
    .list-description p{
       font-size: 1.25rem;
       font-weight: 500;
       color: white;
-      font-family: cursive;
+      font-family: 'manrope',sans-serif;
       text-align: center;
       text-transform: capitalize;
+      line-height: 1.875rem;
    }
- 
+   .service-more-link{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+.service-more-link a{
+color: rgb(133,73,161);
+font-weight: 600;
+text-decoration: none;
+font-size: 1.125rem;
+line-height: 1rem;
+font-family: 'manrope', sans-serif;
+text-align: center;
+
+} 

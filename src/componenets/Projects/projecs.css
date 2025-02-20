@@ -1,0 +1,119 @@
+.project-container{
+    background-color: rgb(44, 44, 56);
+    margin-top: 10px;
+}
+.project-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.project-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+}
+.project-text h1{
+    color: white;
+    font-size: 4rem;
+    font-weight:800 ;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.project-text p{
+ color: rgb(128, 128, 128);
+ margin-left: 100px;
+ margin-right: 100px;
+ overflow-wrap: break-word;
+ font-size: 1.25rem;
+ line-height: 2rem;
+}
+.plist{
+    height: 100%;
+    width: 100%;
+}
+.P-lists{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+    border-radius: .75rem;
+    border: 1px;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: rgb(32, 32, 42);
+    margin: 20px 100px;
+
+}
+.project-image{
+    padding: 50px;
+}
+.project-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: .75rem;
+    object-fit: contain;
+}
+.project-details{
+    display: flex;
+    flex-direction: column;
+}
+.project-details h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.8rem;
+
+}
+.project-details p{
+    color: rgb(128, 128, 128);
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1.8rem;
+}
+.project-link{
+    display: flex;
+    justify-content: flex-end;
+}
+.project-link a{
+    color: rgb(32, 32, 42);;
+    font-size: 1rem;
+    text-decoration: none;
+    transform: color .3s;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+  
+}
+.P-lists:hover{
+    border: 2px solid rgb(133,73,161);
+    .project-details a{
+    color: white;
+}
+}
+
+.project-more-linkk{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+.project-more-linkk a{
+color: rgb(133,73,161);
+font-weight: 600;
+text-decoration: none;
+font-size: 1.125rem;
+line-height: 1rem;
+font-family: 'manrope', sans-serif;
+text-align: center;
+
+}       
