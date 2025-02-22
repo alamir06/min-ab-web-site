@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import {Link} from "react-router-dom";
 function Service(props){
     return(
         <div className="services-list">

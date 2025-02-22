@@ -1,0 +1,49 @@
+.tech-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tech-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 50px;
+}
+.tch-descriptiom{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+.tech-title{
+    font-size: 2rem;
+    font-family: 'manrope',sans-serif;
+    font-weight: 800;
+    color: white;
+
+}
+.tech-decriptons{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'manrope',sans-serif;
+    font-weight: 400;
+    color: rgb(216, 209, 209);
+    margin-bottom: 0.5rem;
+    opacity: 1;
+}
+.tech-image{
+    width: 45%;
+    margin: 50px;
+    padding: 40px;
+
+}
+.tech-image img{
+    width: 100%;
+    padding: 20px;
+
+}
+.tech-dataeven{
+    display: flex;
+    flex-direction: row-reverse;
+}

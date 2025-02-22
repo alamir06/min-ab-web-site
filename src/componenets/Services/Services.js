@@ -1,10 +1,11 @@
 import React from "react";
 import "./services.css";
-import {Link} from "react-router-dom";
 import ServicesDta from "./serviceData";
 import Service from "./Service";
+import Outsorce from "../subcomponenets/ServicelicjkedData/outsourcing/outsource";
 function Services(){
     return (
+        
         <section id="services">
         <div className="services-container">
         <div className="service-text">
@@ -20,8 +21,9 @@ function Services(){
                 desc={service.description} />
             );
         })}
-        
         </div>
+        {/* <Outsorce /> */}
+
         </div>
         </section>
     );

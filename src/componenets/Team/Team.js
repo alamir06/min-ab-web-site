@@ -7,6 +7,7 @@ function Team()
     return(
         <section id="team">
         <div className="team-container">
+        <div className="teams-data">
             <div className="team-note">
                 <div className="team-title">
                     <h1>Meet the Team</h1>
@@ -35,7 +36,7 @@ function Team()
                             <a href="#">More Team Members</a>
                         </div>
             </div>
-            
+            </div>
             </div> 
         </section>
     );
